@@ -2,9 +2,10 @@ package org.example;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.io.Serializable;
 
 @Entity
-public class Ufo {
+public class Ufo implements Serializable {
 
     @Id
     private int id;
